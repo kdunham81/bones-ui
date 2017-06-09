@@ -5,7 +5,7 @@ Progressive Web App for an online game based on the Too Many Bones board game.
 ## Build
 
 <code>  
-ng build --prod
+ng build --prod --aot
 
 npm run sw
 </code>
