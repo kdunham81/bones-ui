@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { GameRoutingModule } from './game-routing.module';
 import { GameComponent } from './game.component';
+import { GearlocSkillsComponent } from './gearloc-skills/gearloc-skills.component';
 
 @NgModule({
   declarations: [
-    GameComponent
+    GameComponent,
+    GearlocSkillsComponent
   ],
   imports: [
     BrowserModule,
